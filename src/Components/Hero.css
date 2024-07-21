@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.herocont{
+    height: 90vh;
+}
+
+#bg{
+    height: 70vh;
+    width: 60vw;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 20vh;
+    margin-bottom: 5vh;
+    border-radius: 20px;
+    box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
+    position: relative;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 1;
+}
+
+.titlee{
+    position: absolute;
+    color: white;
+    top: 8rem;
+    left: 5rem;
+    font-size: 3.7rem;
+    z-index: 2;
+    
+}
+#bgi{
+    height: 70vh;
+    width: 60vw;
+}
+
+span{
+    color: red;
+}
+
+/* #shop {
+    --glow-color: rgb(217, 176, 255);
+    --glow-spread-color: rgba(191, 123, 255, 0.781);
+    --enhanced-glow-color: rgb(231, 206, 255);
+    --btn-color: rgb(100, 61, 136);
+    border: .25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 1em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+   }
+   
+   #shop::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    filter: blur(2em);
+    opacity: .7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+   }
+   
+   #shop:hover {
+    color: var(--btn-color);
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 2em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+   }
+   
+   #shop:active {
+    box-shadow: 0 0 0.6em .25em var(--glow-color),
+           0 0 2.5em 2em var(--glow-spread-color),
+           inset 0 0 .5em .25em var(--glow-color);
+   }
+*/
+   .shopnow{
+    position: absolute;
+    width: fit-content;
+    left: 6rem;
+    top: 23rem;
+   } 
+
+   #shop {
+    background-color: #00BFA6;
+    padding: 14px 40px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px dashed #00BFA6;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .4s;
+   }
+   
+   #shop span:last-child {
+    display: none;
+   }
+   
+   #shop:hover {
+    transition: .4s;
+    border: 2px dashed #00BFA6;
+    background-color: #fff;
+    color: #00BFA6;
+   }
+   
+   #shop:active {
+    background-color: #87dbd0;
+   }
+   
+   #username{
+    font-size: 1rem;
+    color: white;
+    margin: 0;
+   }

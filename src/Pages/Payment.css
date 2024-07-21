@@ -1,0 +1,39 @@
+.paymentpage{
+    /* background: red; */
+    margin-top: 7rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    margin:1rem;
+    /* margin-top: 1rem; */
+
+}
+
+p{
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.s1{
+    border-bottom: 2px solid rgb(191, 191, 191);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+.s2{
+    margin-left: 2rem;
+    width: 50vw;
+}
+
+.conte{
+    display: flex;
+}
+
+.items{
+    width: 50%'';
+}

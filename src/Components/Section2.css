@@ -1,0 +1,10 @@
+.section2{
+    height: 85vh;
+}
+.featurecards{
+    display: flex;
+    gap: 2rem;
+    width: fit-content;
+    margin: auto;
+    margin-top: 3rem;
+}

@@ -1,0 +1,87 @@
+.form {
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    width: 350px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  
+  .form .title {
+    color: royalblue;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form input {
+    outline: 0;
+    border: 1px solid rgb(219, 213, 213);
+    padding: 8px 14px;  
+    border-radius: 8px;
+    width: 90%;
+    margin: auto;
+    height: 50px;
+    
+  }
+  
+  .form textarea {
+    border-radius: 8px;
+    height: 100px;
+    width: 90%;
+    resize: none;
+    outline: 0;
+    padding: 8px 14px;
+    margin: auto;
+    border: 1px solid rgb(219, 213, 213);
+  }
+  
+  .form button {
+    align-self: flex-end;
+    padding: 8px;
+    outline: 0;
+    border: 0;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: royalblue;
+    color: #fff;
+    cursor: pointer;
+  }
+      
+  .contn{
+    display: flex ;
+  }
+
+  .contactcont{
+    width: fit-content;
+    margin: auto;
+    margin-top: 10rem;
+  }
+
+  .gmap{
+    width: 50%;
+    /* margin: auto; */
+    margin-top: 10rem;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    overflow: hidden;
+    margin-left: 4rem;
+  }
+  iframe{
+    width: 100%;
+  }

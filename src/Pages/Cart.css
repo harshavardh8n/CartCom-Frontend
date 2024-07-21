@@ -1,0 +1,60 @@
+
+
+.cartpage{
+    margin:1rem;
+    margin-top: 8rem;
+}
+
+.carttitle{
+    margin-left:1rem;
+}
+
+
+.left{
+    width: 51vw;
+}
+
+.cartpage{
+    display: flex;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.checkout{
+    width: 49vw;
+}
+
+.checkoutbox{
+    width: 80%;
+    margin:auto;
+    margin-top:4rem;
+    border-radius: 10px;
+    height: 11rem;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 1px 0 rgba(0, 0, 0, 0.02);
+    
+}
+.total{
+    /* margin: 2rem 2rem; */
+    padding: 1rem;
+}
+
+.proceed{
+    height: 3rem;
+    width: 15rem;
+    border: none;
+    background-color: rgb(61, 61, 218);
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 15px;
+    margin-left: 2rem;
+
+}
+.proceed:hover{
+    /* box-shadow: 0 1px 5px 0 rgba(224, 22, 22, 0.2), 0 6px 1px 0 rgba(0, 0, 0, 0.2);
+     */
+     background-color: rgb(228, 69, 69);
+     transition: 200ms;
+     font-weight: 700;
+}

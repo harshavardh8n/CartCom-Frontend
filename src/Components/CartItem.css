@@ -1,0 +1,165 @@
+.item{
+    display: flex;
+    margin: 1rem;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 1px 0 rgba(0, 0, 0, 0.02);
+    width: 50vw;
+    border-radius: 15px;
+}
+.lefti{
+  width: 12rem;
+  flex:0.8;
+  overflow: hidden;
+  margin-top: 1rem;
+  /* justify-items: center; */
+}
+.cartitemimage{
+    height: 13rem;
+    width: 18rem;
+    margin: 1rem;
+}
+
+.desc{
+    margin: 1rem;
+    margin-left: 1rem;
+}
+
+.number-control {
+    display: flex;
+    align-items: center;
+  }
+  
+  .number-left::before,
+  .number-right::after {
+    content: attr(data-content);
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 20px;
+    color: white;
+    transition: background-color 0.3s;
+    cursor: pointer;
+  }
+  
+  .number-left::before {
+    content: "-";
+  }
+  
+  .number-right::after {
+    content: "+";
+  }
+  
+  .number-quantity {
+    padding: 0.25rem;
+    border: 0;
+    width: 50px;
+    -moz-appearance: textfield;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  
+  .number-left:hover::before,
+  .number-right:hover::after {
+    background-color: #666666;
+  }
+  
+  .quantityc{
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .number{
+    margin: 0 0.5rem;
+  }
+
+  .para{
+    font-size: 1rem;
+    text-align: left;
+    margin-left: 0;
+  }
+
+  .description{
+    margin:1rem 0;
+  }
+
+  .CartBtn {
+    width: 140px;
+    height: 40px;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(255, 208, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: .5s;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.103);
+    position: relative;
+    z-index: 0;
+    /* margin-left: 0.8rem; */
+  }
+  
+  .IconContainer {
+    position: absolute;
+    left: -50px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 2;
+    transition-duration: .5s;
+  }
+  
+  .icon {
+    border-radius: 1px;
+
+  }
+  
+  .text2 {
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(17, 17, 17);
+    z-index: 1;
+    transition-duration: .5s;
+    font-size: 1.04em;
+    font-weight: 600;
+
+  }
+  
+  .CartBtn:hover .IconContainer {
+    transform: translateX(58px);
+    border-radius: 40px;
+    transition-duration: .5s;
+  }
+  
+  .CartBtn:hover .text {
+    transform: translate(10px,0px);
+    transition-duration: .5s;
+  }
+  
+  .CartBtn:active {
+    transform: scale(0.95);
+    transition-duration: .5s;
+  }
+
+  .itembox{
+    display: flex;
+  }
+
+  .price{
+    width: 12rem;
+    text-align: right;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+  }
+
+

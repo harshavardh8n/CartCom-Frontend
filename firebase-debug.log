@@ -1,0 +1,57 @@
+[debug] [2024-06-25T08:11:10.106Z] ----------------------------------------------------------------------
+[debug] [2024-06-25T08:11:10.108Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2024-06-25T08:11:10.108Z] CLI Version:   13.11.4
+[debug] [2024-06-25T08:11:10.108Z] Platform:      win32
+[debug] [2024-06-25T08:11:10.109Z] Node Version:  v18.17.0
+[debug] [2024-06-25T08:11:10.109Z] Time:          Tue Jun 25 2024 13:41:10 GMT+0530 (India Standard Time)
+[debug] [2024-06-25T08:11:10.109Z] ----------------------------------------------------------------------
+[debug] 
+[info] Already logged in as harshavardhangaikwad39@gmail.com
+[debug] [2024-06-25T08:11:20.216Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\harshavardhan\AppData\Roaming\nvm\v18.17.0\node_modules\firebase-tools\lib\utils.js:267:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-06-25T08:11:39.090Z] ----------------------------------------------------------------------
+[debug] [2024-06-25T08:11:39.092Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-06-25T08:11:39.092Z] CLI Version:   13.11.4
+[debug] [2024-06-25T08:11:39.092Z] Platform:      win32
+[debug] [2024-06-25T08:11:39.092Z] Node Version:  v18.17.0
+[debug] [2024-06-25T08:11:39.093Z] Time:          Tue Jun 25 2024 13:41:39 GMT+0530 (India Standard Time)
+[debug] [2024-06-25T08:11:39.093Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-25T08:11:39.149Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-25T08:11:39.149Z] > authorizing via signed-in user (harshavardhangaikwad39@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Web\full stack ecommerce\ecommerce
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-06-25T08:11:47.381Z] Using project from CLI flag: ecommerce-94efd
+[debug] [2024-06-25T08:11:47.383Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce-94efd [none]
+[debug] [2024-06-25T08:12:11.444Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects/ecommerce-94efd, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects/ecommerce-94efd failed, reason: connect ETIMEDOUT 2404:6800:4009:812::200a:443
+[debug] [2024-06-25T08:12:11.445Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/ecommerce-94efd (original: request to https://firebase.googleapis.com/v1beta1/projects/ecommerce-94efd failed, reason: connect ETIMEDOUT 2404:6800:4009:812::200a:443)
+[debug] [2024-06-25T08:12:16.455Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\harshavardhan\AppData\Roaming\nvm\v18.17.0\node_modules\firebase-tools\lib\utils.js:267:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.
