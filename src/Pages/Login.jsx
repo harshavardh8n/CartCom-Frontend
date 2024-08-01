@@ -27,6 +27,7 @@ const Login = () => {
           ...user,
           [name]:value,
       })
+      console.log(user);
   }
 
   
