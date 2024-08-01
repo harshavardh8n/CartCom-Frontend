@@ -14,7 +14,7 @@ const ProductStateProvider = ({children})=>{
 
 const getProducts = async () => {
   try {
-    const response = await fetch('http://localhost:4000/products', {
+    const response = await fetch('https://cartcom-backend.vercel.app/products', {
       method: 'GET',
     });
     const data = await response.json();

@@ -7,7 +7,7 @@ const Contact = () => {
   const fetchData = async () => {
     try {
       console.log("step1");
-      const response = await fetch('http://localhost:4000/contact', {
+      const response = await fetch('https://cartcom-backend.vercel.app/contact', {
         method: "GET",
         // Uncomment if headers are needed
         // headers: {
@@ -53,7 +53,7 @@ catch(error){
     console.log(contact);
     try {
       console.log("step1");
-      const response = await fetch('http://localhost:4000/contact',{
+      const response = await fetch('https://cartcom-backend.vercel.app/contact',{
       method:"POST",
       headers:{
         "Content-Type":"application/json",
